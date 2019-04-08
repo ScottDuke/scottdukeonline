@@ -13,3 +13,55 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#index-banner .section {
+  height: 100vh;
+}
+
+/* .parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+} */
+
+.parallax-container .section {
+  width: 100%;
+}
+
+/* .parallax-background {
+  background: blueviolet;
+} */
+
+.parallax-container
+ {
+ 	color: black;
+ }
+
+ .primary-colour {
+   background-color: #4285F4 !important;
+ }
+      
